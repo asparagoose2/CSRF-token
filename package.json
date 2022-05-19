@@ -1,0 +1,23 @@
+{
+  "name": "csrf-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asparagoose2/CSRF-token.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asparagoose2/CSRF-token/issues"
+  },
+  "homepage": "https://github.com/asparagoose2/CSRF-token#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
