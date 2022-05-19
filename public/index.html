@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        #popup {
+            height: 100px;
+            width: 400px;
+            background-color:rgb(51, 47, 47);
+            position: relative;
+            top: -400px;
+            left: 60px;
+            display: none;
+        }
+        h3 {
+            color: rgb(221, 216, 216);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the store!</h1>
+    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3e9e43c6-ee56-482d-a847-4648e468d4f0/air-jordan-1-retro-high-og-shoes-DRDX5L.png"></img>
+    <br>
+    <button id='btn'>Buy Now!</button>
+    <div id="popup">
+        <h3>Are you sure you wat to buy?</h3>
+        <form action="/buy" method="post">
+            <input type="text" name="token"/>
+            <button id='cancel'>No</button>
+            <input type="submit" value="Yes"/>
+
+        </form>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
